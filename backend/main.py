@@ -11,9 +11,7 @@ load_dotenv()
 app = FastAPI()
 
 # Enable CORS for all origins
-# This is necessary for the frontend to access the API without CORS issues
 from fastapi.middleware.cors import CORSMiddleware
-
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -21,7 +19,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 
 driver_model = joblib.load("driver_position_model.pkl")
 constructor_model = joblib.load("constructor_model.pkl")
@@ -131,57 +128,15 @@ driver_team_map = {
     "Nico Hülkenberg": "Stake_F1", "Gabriel Bortoleto": "Stake_F1"
 }
 
-#Average qualifying positions for drivers based on historical data.
-#This is used as a fallback when real-time data is not available.
-
 average_qualifying_position = {
-    "Max Verstappen": 2.0,
-    "Lando Norris": 3.0,
-    "Oscar Piastri": 3.5,
-    "Charles Leclerc": 4.5,
-    "George Russell": 5.0,
-    "Lewis Hamilton": 6.0,
-    "Carlos Sainz": 7.0,
-    "Andrea Kimi Antonelli": 7.5,
-    "Yuki Tsunoda": 11.5,
-    "Pierre Gasly": 11.0,
-    "Esteban Ocon": 12.0,
-    "Fernando Alonso": 9.0,
-    "Lance Stroll": 13.5,
-    "Alex Albon": 10.5,
-    "Liam Lawson": 11.0,
-    "Isack Hadjar": 13.0,
-    "Oliver Bearman": 13.5,
-    "Franco Colapinto": 15.0,
-    "Nico Hülkenberg": 14.5,
-    "Gabriel Bortoleto": 16.0
+    "Max Verstappen": 2.0, "Lando Norris": 3.0, "Oscar Piastri": 3.5,
+    "Charles Leclerc": 4.5, "George Russell": 5.0, "Lewis Hamilton": 6.0,
+    "Carlos Sainz": 7.0, "Andrea Kimi Antonelli": 7.5, "Yuki Tsunoda": 11.5,
+    "Pierre Gasly": 11.0, "Esteban Ocon": 12.0, "Fernando Alonso": 9.0,
+    "Lance Stroll": 13.5, "Alex Albon": 10.5, "Liam Lawson": 11.0,
+    "Isack Hadjar": 13.0, "Oliver Bearman": 13.5, "Franco Colapinto": 15.0,
+    "Nico Hülkenberg": 14.5, "Gabriel Bortoleto": 16.0
 }
-'''
-
-average_qualifying_position = {
-    "George Russell": 1,
-    "Max Verstappen": 2,
-    "Oscar Piastri": 3,
-    "Andrea Kimi Antonelli": 4,
-    "Lewis Hamilton": 5,
-    "Fernando Alonso": 6,
-    "Lando Norris": 7,
-    "Charles Leclerc": 8,
-    "Isack Hadjar": 9,
-    "Alex Albon": 10,
-    "Yuki Tsunoda": 11,
-    "Franco Colapinto": 12,
-    "Nico Hülkenberg": 13,
-    "Oliver Bearman": 14,
-    "Esteban Ocon": 15,
-    "Gabriel Bortoleto": 16,
-    "Carlos Sainz": 17,
-    "Lance Stroll": 18,
-    "Liam Lawson": 19,
-    "Pierre Gasly": 20
-}
-'''
-
 
 def get_weather(track_key):
     city = track_to_city.get(track_key, "London")
@@ -203,7 +158,6 @@ def get_qualifying_positions(year: int, round_number: int):
             f"{r['Driver']['givenName']} {r['Driver']['familyName']}": int(r['position'])
             for r in results
         }
-
     try:
         url = f"https://ergast.com/api/f1/{year}/{round_number}/qualifying.json"
         res = requests.get(url, timeout=5)
@@ -312,3 +266,9 @@ def predict_all(race_name: TrackName):
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Prediction failed: {str(e)}")
+
+
+# ✅ Added health check endpoint
+@app.get("/")
+def root():
+    return {"message": "F1 Race Predictor Backend is Live"}
