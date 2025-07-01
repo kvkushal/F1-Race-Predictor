@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import './App.css';
 
+const BACKEND_URL = "https://f1-race-predictor-23c4.onrender.com";
+
 const TRACKS = [
   { value: '', label: 'Choose the track' },
   { value: 'Australian Grand Prix', label: 'Australian Grand Prix' },
@@ -40,7 +42,7 @@ function App() {
     setLoading(true);
     setError(null);
     try {
-      const res = await fetch(`http://localhost:8000/predict_all/${encodeURIComponent(track)}`);
+      const res = await fetch(`${BACKEND_URL}/predict_all/${encodeURIComponent(track)}`);
       if (!res.ok) throw new Error(await res.text());
       const result = await res.json();
       setData(result);
@@ -52,7 +54,7 @@ function App() {
 
   useEffect(() => {
     if (track) {
-      const interval = setInterval(fetchData, 300000); // every 5 mins
+      const interval = setInterval(fetchData, 300000); // refresh every 5 mins
       return () => clearInterval(interval);
     }
   }, [track]);
@@ -112,7 +114,6 @@ function App() {
         </div>
       )}
 
-      {/* ✅ Footer for branding */}
       <footer style={{ marginTop: '2rem', color: '#888', fontSize: '0.85rem', textAlign: 'center' }}>
         © 2025 F1 Predictor • Built by Kushal KV • Powered by AI & Live Data
       </footer>
