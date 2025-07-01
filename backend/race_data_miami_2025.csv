@@ -1,0 +1,862 @@
+Driver,DriverNumber,Team,LapNumber,LapTime,Compound,TyreLife,TrackStatus,IsPersonalBest,Position,PitInTime,PitOutTime,QualifyingPosition,AirTemp,TrackTemp,Humidity
+VER,1,Red Bull Racing,4.0,92.569,nan,,1,True,1.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,5.0,92.133,nan,,1,True,1.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,6.0,92.096,nan,,1,True,1.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,7.0,92.083,nan,,1,True,1.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,8.0,92.583,nan,,1,False,1.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,9.0,92.406,nan,,1,False,1.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,10.0,92.392,nan,,1,False,1.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,11.0,92.595,nan,,1,False,1.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,12.0,92.236,nan,,1,False,1.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,13.0,92.272,nan,,1,False,1.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,14.0,94.727,nan,,1,False,2.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,15.0,93.736,nan,,1,False,2.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,16.0,93.178,nan,,1,False,2.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,17.0,94.857,nan,,1,False,2.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,18.0,93.253,nan,,1,False,3.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,19.0,92.824,nan,,1,False,3.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,20.0,93.284,nan,,1,False,3.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,21.0,92.693,nan,,1,False,3.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,22.0,92.472,nan,,1,False,3.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,23.0,92.636,nan,,1,False,3.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,24.0,92.44,nan,,1,False,3.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,25.0,92.523,MEDIUM,1.0,1,False,3.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,31.0,91.025,MEDIUM,7.0,1,True,4.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,32.0,91.781,MEDIUM,8.0,1,False,4.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,34.0,90.879,HARD,2.0,1,True,4.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,35.0,90.68,HARD,3.0,1,True,4.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,36.0,90.829,HARD,4.0,1,False,4.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,37.0,90.751,HARD,5.0,1,False,4.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,38.0,90.992,HARD,6.0,1,False,4.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,39.0,90.793,HARD,7.0,1,False,4.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,40.0,90.743,HARD,8.0,1,False,4.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,41.0,90.466,HARD,9.0,1,True,4.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,42.0,90.685,HARD,10.0,1,False,4.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,43.0,90.775,HARD,11.0,1,False,4.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,44.0,90.822,HARD,12.0,1,False,4.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,45.0,90.643,HARD,13.0,1,False,4.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,46.0,90.977,HARD,14.0,1,False,4.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,47.0,91.136,HARD,15.0,1,False,4.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,48.0,90.879,HARD,16.0,1,False,4.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,49.0,90.59,HARD,17.0,1,False,4.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,50.0,90.668,HARD,18.0,1,False,4.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,51.0,90.534,HARD,19.0,1,False,4.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,52.0,90.773,HARD,20.0,1,False,4.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,53.0,90.887,HARD,21.0,1,False,4.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,54.0,91.606,HARD,22.0,1,False,4.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,55.0,90.523,HARD,23.0,1,False,4.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,56.0,90.651,HARD,24.0,1,False,4.0,,,1.0,25.0,30.0,50.0
+VER,1,Red Bull Racing,57.0,90.986,HARD,25.0,1,False,4.0,,,1.0,25.0,30.0,50.0
+GAS,10,Alpine,4.0,94.054,nan,,1,True,18.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,5.0,94.123,nan,,1,False,18.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,6.0,94.295,nan,,1,False,18.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,7.0,94.019,nan,,1,True,18.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,8.0,94.087,nan,,1,False,18.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,9.0,93.727,nan,,1,True,17.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,10.0,93.43,nan,,1,True,17.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,11.0,93.253,nan,,1,True,17.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,12.0,93.244,nan,,1,True,17.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,13.0,93.113,nan,,1,True,17.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,14.0,93.309,nan,,1,False,17.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,15.0,93.775,nan,,1,False,17.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,16.0,93.39,nan,,1,False,17.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,17.0,93.478,nan,,1,False,17.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,18.0,93.528,nan,,1,False,17.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,19.0,93.563,nan,,1,False,17.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,20.0,93.441,nan,,1,False,15.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,21.0,93.143,nan,,1,False,15.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,22.0,93.025,nan,,1,True,15.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,23.0,92.798,nan,,1,True,14.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,24.0,92.831,HARD,1.0,1,False,13.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,25.0,92.853,HARD,2.0,1,False,13.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,26.0,94.359,HARD,3.0,1,False,13.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,27.0,92.77,HARD,4.0,1,True,12.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,30.0,93.172,HARD,7.0,1,False,12.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,31.0,92.523,HARD,8.0,1,True,12.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,34.0,91.372,MEDIUM,2.0,1,True,14.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,35.0,91.159,MEDIUM,3.0,1,True,14.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,36.0,91.533,MEDIUM,4.0,1,False,14.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,37.0,91.682,MEDIUM,5.0,1,False,13.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,38.0,91.642,MEDIUM,6.0,1,False,13.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,39.0,91.602,MEDIUM,7.0,1,False,13.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,40.0,91.455,MEDIUM,8.0,1,False,13.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,41.0,91.637,MEDIUM,9.0,1,False,13.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,42.0,91.528,MEDIUM,10.0,1,False,13.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,43.0,91.511,MEDIUM,11.0,1,False,13.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,44.0,91.443,MEDIUM,12.0,1,False,13.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,45.0,92.445,MEDIUM,13.0,1,False,13.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,46.0,91.913,MEDIUM,14.0,1,False,13.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,47.0,91.438,MEDIUM,15.0,1,False,13.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,48.0,91.327,MEDIUM,16.0,1,False,13.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,49.0,91.304,MEDIUM,17.0,1,False,13.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,50.0,91.391,MEDIUM,18.0,1,False,13.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,51.0,91.497,MEDIUM,19.0,1,False,13.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,52.0,92.09,MEDIUM,20.0,1,False,13.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,53.0,91.948,MEDIUM,21.0,1,False,13.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,54.0,91.937,MEDIUM,22.0,1,False,13.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,55.0,91.574,MEDIUM,23.0,1,False,13.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,56.0,91.519,MEDIUM,24.0,1,False,13.0,,,18.0,25.0,30.0,50.0
+GAS,10,Alpine,57.0,92.874,MEDIUM,25.0,1,False,13.0,,,18.0,25.0,30.0,50.0
+ANT,12,Mercedes,4.0,93.016,nan,,1,True,3.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,5.0,92.859,nan,,1,True,3.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,6.0,92.883,nan,,1,False,3.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,7.0,93.029,nan,,1,False,3.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,8.0,92.945,nan,,1,False,3.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,9.0,93.684,nan,,1,False,4.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,10.0,93.004,nan,,1,False,4.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,11.0,92.79,nan,,1,True,4.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,12.0,92.725,nan,,1,True,4.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,13.0,92.745,nan,,1,False,4.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,14.0,92.692,nan,,1,True,4.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,15.0,92.902,nan,,1,False,4.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,16.0,92.878,nan,,1,False,4.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,17.0,92.734,nan,,1,False,4.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,18.0,93.014,nan,,1,False,4.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,19.0,93.113,nan,,1,False,4.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,20.0,92.901,nan,,1,False,4.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,21.0,92.781,nan,,1,False,4.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,22.0,92.71,nan,,1,False,4.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,23.0,92.4,nan,,1,True,4.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,24.0,92.5,nan,,1,False,4.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,27.0,90.795,MEDIUM,3.0,1,True,8.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,30.0,91.786,MEDIUM,6.0,1,False,5.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,31.0,92.717,MEDIUM,7.0,1,False,6.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,32.0,91.967,MEDIUM,8.0,1,False,6.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,34.0,90.845,HARD,2.0,1,False,6.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,35.0,90.807,HARD,3.0,1,False,6.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,36.0,90.948,HARD,4.0,1,False,6.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,37.0,91.352,HARD,5.0,1,False,6.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,38.0,91.086,HARD,6.0,1,False,6.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,39.0,91.188,HARD,7.0,1,False,6.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,40.0,91.288,HARD,8.0,1,False,6.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,41.0,91.725,HARD,9.0,1,False,6.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,42.0,91.58,HARD,10.0,1,False,6.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,43.0,91.616,HARD,11.0,1,False,6.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,44.0,91.187,HARD,12.0,1,False,6.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,45.0,91.426,HARD,13.0,1,False,6.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,46.0,91.572,HARD,14.0,1,False,6.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,47.0,91.375,HARD,15.0,1,False,6.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,48.0,91.072,HARD,16.0,1,False,6.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,49.0,91.131,HARD,17.0,1,False,6.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,50.0,90.946,HARD,18.0,1,False,6.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,51.0,90.965,HARD,19.0,1,False,6.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,52.0,90.973,HARD,20.0,1,False,6.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,53.0,90.988,HARD,21.0,1,False,6.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,54.0,90.912,HARD,22.0,1,False,6.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,55.0,90.829,HARD,23.0,1,False,6.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,56.0,90.937,HARD,24.0,1,False,6.0,,,3.0,25.0,30.0,50.0
+ANT,12,Mercedes,57.0,90.999,HARD,25.0,1,False,6.0,,,3.0,25.0,30.0,50.0
+ALO,14,Aston Martin,4.0,93.693,nan,,1,True,17.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,5.0,94.064,nan,,1,False,17.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,6.0,93.695,nan,,1,False,17.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,7.0,93.485,nan,,1,True,17.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,8.0,93.387,nan,,1,True,17.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,9.0,101.044,nan,,1,False,18.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,10.0,93.184,nan,,1,True,18.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,11.0,93.184,nan,,1,False,18.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,12.0,92.548,nan,,1,True,18.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,13.0,92.982,nan,,1,False,18.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,14.0,93.132,nan,,1,False,18.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,15.0,93.29,nan,,1,False,18.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,16.0,93.246,nan,,1,False,18.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,17.0,93.477,nan,,1,False,18.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,18.0,93.313,nan,,1,False,18.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,19.0,93.239,nan,,1,False,18.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,20.0,93.19,nan,,1,False,16.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,21.0,93.521,nan,,1,False,16.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,22.0,93.504,nan,,1,False,16.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,23.0,93.461,nan,,1,False,15.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,24.0,93.165,HARD,2.0,1,False,14.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,25.0,93.268,HARD,3.0,1,False,14.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,26.0,93.205,HARD,4.0,1,False,14.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,27.0,93.003,HARD,5.0,1,False,14.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,30.0,92.823,HARD,8.0,1,False,15.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,31.0,92.855,HARD,9.0,1,False,15.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,34.0,92.364,MEDIUM,3.0,1,True,15.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,35.0,92.44,MEDIUM,4.0,1,False,15.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,36.0,92.227,MEDIUM,5.0,1,True,15.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,37.0,92.641,MEDIUM,6.0,1,False,15.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,38.0,91.287,MEDIUM,7.0,1,True,15.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,39.0,92.011,MEDIUM,8.0,1,False,15.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,40.0,92.077,MEDIUM,9.0,1,False,15.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,41.0,92.121,MEDIUM,10.0,1,False,15.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,42.0,92.246,MEDIUM,11.0,1,False,15.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,43.0,91.947,MEDIUM,12.0,1,False,15.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,44.0,91.96,MEDIUM,13.0,1,False,15.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,45.0,91.928,MEDIUM,14.0,1,False,15.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,46.0,92.259,MEDIUM,15.0,1,False,15.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,47.0,93.466,MEDIUM,16.0,1,False,15.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,48.0,92.556,MEDIUM,17.0,1,False,15.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,49.0,93.964,MEDIUM,18.0,1,False,15.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,50.0,92.935,MEDIUM,19.0,1,False,15.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,51.0,92.227,MEDIUM,20.0,1,False,15.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,52.0,91.981,MEDIUM,21.0,1,False,15.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,53.0,92.609,MEDIUM,22.0,1,False,15.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,54.0,92.495,MEDIUM,23.0,1,False,15.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,55.0,92.155,MEDIUM,24.0,1,False,15.0,,,17.0,25.0,30.0,50.0
+ALO,14,Aston Martin,56.0,92.277,MEDIUM,25.0,1,False,15.0,,,17.0,25.0,30.0,50.0
+LEC,16,Ferrari,4.0,92.763,nan,,1,True,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,5.0,92.509,nan,,1,True,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,6.0,93.363,nan,,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,7.0,93.047,nan,,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,8.0,93.415,nan,,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,9.0,93.033,nan,,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,10.0,92.85,nan,,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,11.0,93.558,nan,,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,12.0,93.096,nan,,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,13.0,93.112,nan,,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,14.0,93.6,nan,,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,15.0,93.409,nan,,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,16.0,93.207,nan,,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,17.0,93.05,nan,,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,18.0,93.269,nan,,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,19.0,92.61,nan,,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,20.0,92.671,nan,,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,21.0,92.673,nan,,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,22.0,92.735,nan,,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,23.0,92.685,nan,,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,24.0,92.858,nan,,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,25.0,92.417,MEDIUM,1.0,1,True,7.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,26.0,92.749,MEDIUM,2.0,1,False,6.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,27.0,92.452,MEDIUM,3.0,1,False,4.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,28.0,92.228,MEDIUM,4.0,1,True,4.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,31.0,93.623,MEDIUM,7.0,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,32.0,91.641,MEDIUM,8.0,1,True,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,34.0,90.813,HARD,2.0,1,True,7.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,35.0,90.461,HARD,3.0,1,True,7.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,36.0,90.724,HARD,4.0,1,False,7.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,37.0,90.97,HARD,5.0,1,False,7.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,38.0,92.29,HARD,6.0,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,39.0,91.324,HARD,7.0,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,40.0,91.022,HARD,8.0,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,41.0,91.236,HARD,9.0,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,42.0,91.097,HARD,10.0,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,43.0,91.258,HARD,11.0,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,44.0,91.057,HARD,12.0,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,45.0,91.167,HARD,13.0,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,46.0,91.334,HARD,14.0,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,47.0,90.984,HARD,15.0,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,48.0,90.888,HARD,16.0,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,49.0,90.849,HARD,17.0,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,50.0,90.828,HARD,18.0,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,51.0,90.557,HARD,19.0,1,False,8.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,52.0,90.975,HARD,20.0,1,False,7.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,53.0,90.551,HARD,21.0,1,False,7.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,54.0,90.496,HARD,22.0,1,False,7.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,55.0,90.601,HARD,23.0,1,False,7.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,56.0,90.707,HARD,24.0,1,False,7.0,,,8.0,25.0,30.0,50.0
+LEC,16,Ferrari,57.0,90.867,HARD,25.0,1,False,7.0,,,8.0,25.0,30.0,50.0
+STR,18,Aston Martin,4.0,93.892,nan,,1,True,15.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,5.0,93.896,nan,,1,False,15.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,6.0,93.212,nan,,1,True,15.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,7.0,93.581,nan,,1,False,15.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,8.0,93.469,nan,,1,False,15.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,9.0,93.621,nan,,1,False,15.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,10.0,93.843,nan,,1,False,15.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,11.0,93.678,nan,,1,False,15.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,12.0,93.547,nan,,1,False,15.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,13.0,93.825,nan,,1,False,15.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,14.0,94.221,nan,,1,False,15.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,15.0,93.694,nan,,1,False,15.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,16.0,93.913,nan,,1,False,15.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,17.0,93.859,nan,,1,False,15.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,18.0,93.59,nan,,1,False,15.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,19.0,93.545,nan,,1,False,14.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,22.0,92.538,nan,,1,True,18.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,23.0,93.019,nan,,1,False,18.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,24.0,93.004,HARD,2.0,1,False,18.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,25.0,92.687,HARD,3.0,1,False,18.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,26.0,92.634,HARD,4.0,1,False,18.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,27.0,92.527,HARD,5.0,1,True,18.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,30.0,92.804,HARD,8.0,1,False,16.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,31.0,92.974,HARD,9.0,1,False,16.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,34.0,92.189,HARD,12.0,1,True,16.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,35.0,92.333,HARD,13.0,1,False,16.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,36.0,92.387,HARD,14.0,1,False,16.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,37.0,92.999,HARD,15.0,1,False,16.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,38.0,92.298,HARD,16.0,1,False,16.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,39.0,92.237,HARD,17.0,1,False,16.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,40.0,92.166,HARD,18.0,1,True,16.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,41.0,92.181,HARD,19.0,1,False,16.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,42.0,92.205,HARD,20.0,1,False,16.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,43.0,92.19,HARD,21.0,1,False,16.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,44.0,92.353,HARD,22.0,1,False,16.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,45.0,94.538,HARD,23.0,1,False,16.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,46.0,94.595,HARD,24.0,1,False,16.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,47.0,92.662,HARD,25.0,1,False,16.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,48.0,92.521,HARD,26.0,1,False,16.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,49.0,92.044,HARD,27.0,1,True,16.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,50.0,91.769,HARD,28.0,1,True,16.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,51.0,92.029,HARD,29.0,1,False,16.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,52.0,92.28,HARD,30.0,1,False,16.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,53.0,92.266,HARD,31.0,1,False,16.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,54.0,92.186,HARD,32.0,1,False,16.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,55.0,92.076,HARD,33.0,1,False,16.0,,,19.0,25.0,30.0,50.0
+STR,18,Aston Martin,56.0,92.447,HARD,34.0,1,False,16.0,,,19.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,4.0,92.955,nan,,1,True,9.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,5.0,92.945,nan,,1,True,9.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,6.0,93.036,nan,,1,False,9.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,7.0,93.076,nan,,1,False,9.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,8.0,93.187,nan,,1,False,9.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,9.0,93.272,nan,,1,False,9.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,10.0,93.145,nan,,1,False,9.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,11.0,93.219,nan,,1,False,9.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,12.0,93.239,nan,,1,False,9.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,13.0,93.225,nan,,1,False,9.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,14.0,93.105,nan,,1,False,9.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,15.0,93.489,nan,,1,False,9.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,16.0,93.366,nan,,1,False,9.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,17.0,93.213,nan,,1,False,9.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,18.0,93.325,nan,,1,False,9.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,19.0,93.148,nan,,1,False,9.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,20.0,93.15,nan,,1,False,9.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,21.0,92.758,nan,,1,True,9.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,22.0,92.829,nan,,1,False,9.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,23.0,92.855,nan,,1,False,9.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,24.0,92.673,nan,,1,True,9.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,25.0,92.528,MEDIUM,1.0,1,True,8.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,26.0,92.634,MEDIUM,2.0,1,False,7.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,30.0,91.531,MEDIUM,6.0,1,True,11.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,31.0,91.698,MEDIUM,7.0,1,False,11.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,34.0,91.393,HARD,2.0,1,True,10.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,35.0,91.41,HARD,3.0,1,False,10.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,36.0,91.287,HARD,4.0,1,True,10.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,37.0,91.495,HARD,5.0,1,False,10.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,38.0,91.199,HARD,6.0,1,True,10.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,39.0,91.557,HARD,7.0,1,False,10.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,40.0,91.328,HARD,8.0,1,False,10.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,41.0,91.345,HARD,9.0,1,False,10.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,42.0,91.211,HARD,10.0,1,False,10.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,43.0,91.229,HARD,11.0,1,False,10.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,44.0,91.183,HARD,12.0,1,True,10.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,45.0,91.335,HARD,13.0,1,False,10.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,46.0,91.427,HARD,14.0,1,False,10.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,47.0,91.046,HARD,15.0,1,True,10.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,48.0,91.528,HARD,16.0,1,False,10.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,49.0,91.131,HARD,17.0,1,False,10.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,50.0,91.363,HARD,18.0,1,False,10.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,51.0,91.179,HARD,19.0,1,False,10.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,52.0,91.237,HARD,20.0,1,False,10.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,53.0,91.267,HARD,21.0,1,False,10.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,54.0,91.341,HARD,22.0,1,False,10.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,55.0,90.964,HARD,23.0,1,True,10.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,56.0,91.401,HARD,24.0,1,False,10.0,,,10.0,25.0,30.0,50.0
+TSU,22,Red Bull Racing,57.0,91.051,HARD,25.0,1,False,10.0,,,10.0,25.0,30.0,50.0
+ALB,23,Williams,4.0,93.079,nan,,1,True,6.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,5.0,93.836,nan,,1,False,7.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,6.0,93.206,nan,,1,False,7.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,7.0,92.982,nan,,1,True,7.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,8.0,93.117,nan,,1,False,7.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,9.0,93.014,nan,,1,False,7.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,10.0,92.834,nan,,1,True,7.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,11.0,93.569,nan,,1,False,7.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,12.0,93.515,nan,,1,False,7.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,13.0,93.031,nan,,1,False,7.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,14.0,92.701,nan,,1,True,6.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,15.0,92.968,nan,,1,False,6.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,16.0,92.612,nan,,1,True,6.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,17.0,92.506,nan,,1,True,6.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,18.0,92.648,nan,,1,False,6.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,19.0,92.736,nan,,1,False,6.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,20.0,92.601,nan,,1,False,6.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,21.0,92.551,nan,,1,False,6.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,22.0,92.39,nan,,1,True,6.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,23.0,92.397,nan,,1,False,6.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,24.0,92.43,nan,,1,False,6.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,25.0,92.076,MEDIUM,1.0,1,True,5.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,30.0,91.203,MEDIUM,6.0,1,True,6.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,31.0,91.071,MEDIUM,7.0,1,True,5.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,32.0,91.514,MEDIUM,8.0,1,False,5.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,34.0,90.608,HARD,2.0,1,True,5.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,35.0,91.143,HARD,3.0,1,False,5.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,36.0,90.799,HARD,4.0,1,False,5.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,37.0,91.111,HARD,5.0,1,False,5.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,38.0,91.363,HARD,6.0,1,False,5.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,39.0,91.351,HARD,7.0,1,False,5.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,40.0,91.181,HARD,8.0,1,False,5.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,41.0,90.975,HARD,9.0,1,False,5.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,42.0,91.389,HARD,10.0,1,False,5.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,43.0,91.172,HARD,11.0,1,False,5.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,44.0,91.169,HARD,12.0,1,False,5.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,45.0,91.122,HARD,13.0,1,False,5.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,46.0,91.073,HARD,14.0,1,False,5.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,47.0,91.012,HARD,15.0,1,False,5.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,48.0,91.055,HARD,16.0,1,False,5.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,49.0,90.839,HARD,17.0,1,False,5.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,50.0,90.95,HARD,18.0,1,False,5.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,51.0,90.687,HARD,19.0,1,False,5.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,52.0,90.684,HARD,20.0,1,False,5.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,53.0,90.688,HARD,21.0,1,False,5.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,54.0,90.657,HARD,22.0,1,False,5.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,55.0,90.482,HARD,23.0,1,True,5.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,56.0,90.675,HARD,24.0,1,False,5.0,,,7.0,25.0,30.0,50.0
+ALB,23,Williams,57.0,90.577,HARD,25.0,1,False,5.0,,,7.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,4.0,94.181,nan,,1,True,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,5.0,93.552,nan,,1,True,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,6.0,93.311,nan,,1,True,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,7.0,93.576,nan,,1,False,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,8.0,93.415,nan,,1,False,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,9.0,93.517,nan,,1,False,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,10.0,93.584,nan,,1,False,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,11.0,93.736,nan,,1,False,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,12.0,93.441,nan,,1,False,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,13.0,93.39,nan,,1,False,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,14.0,93.56,nan,,1,False,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,15.0,93.743,nan,,1,False,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,16.0,93.591,nan,,1,False,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,17.0,93.607,nan,,1,False,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,18.0,93.621,nan,,1,False,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,19.0,93.461,nan,,1,False,13.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,20.0,93.252,nan,,1,True,13.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,21.0,93.282,nan,,1,False,13.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,22.0,93.272,nan,,1,False,12.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,23.0,92.881,nan,,1,True,12.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,24.0,92.738,HARD,1.0,1,True,11.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,25.0,92.441,HARD,2.0,1,True,11.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,26.0,93.266,HARD,3.0,1,False,10.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,27.0,93.274,HARD,4.0,1,False,11.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,30.0,92.735,HARD,7.0,1,False,10.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,31.0,93.128,HARD,8.0,1,False,10.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,34.0,92.815,HARD,11.0,1,False,11.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,35.0,92.655,HARD,12.0,1,False,11.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,38.0,91.365,MEDIUM,2.0,1,True,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,39.0,91.044,MEDIUM,3.0,1,True,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,40.0,91.491,MEDIUM,4.0,1,False,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,41.0,91.203,MEDIUM,5.0,1,False,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,42.0,91.33,MEDIUM,6.0,1,False,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,43.0,91.015,MEDIUM,7.0,1,True,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,44.0,91.108,MEDIUM,8.0,1,False,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,45.0,91.321,MEDIUM,9.0,1,False,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,46.0,91.053,MEDIUM,10.0,1,False,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,47.0,91.052,MEDIUM,11.0,1,False,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,48.0,91.124,MEDIUM,12.0,1,False,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,49.0,91.154,MEDIUM,13.0,1,False,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,50.0,91.227,MEDIUM,14.0,1,False,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,51.0,91.363,MEDIUM,15.0,1,False,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,52.0,91.767,MEDIUM,16.0,1,False,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,53.0,91.419,MEDIUM,17.0,1,False,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,54.0,91.137,MEDIUM,18.0,1,False,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,55.0,91.156,MEDIUM,19.0,1,False,14.0,,,16.0,25.0,30.0,50.0
+HUL,27,Kick Sauber,56.0,93.417,MEDIUM,20.0,1,False,14.0,,,16.0,25.0,30.0,50.0
+LAW,30,Racing Bulls,4.0,93.315,nan,,1,True,19.0,,,15.0,25.0,30.0,50.0
+LAW,30,Racing Bulls,5.0,94.526,nan,,1,False,19.0,,,15.0,25.0,30.0,50.0
+LAW,30,Racing Bulls,6.0,94.334,nan,,1,False,19.0,,,15.0,25.0,30.0,50.0
+LAW,30,Racing Bulls,7.0,94.046,nan,,1,False,19.0,,,15.0,25.0,30.0,50.0
+LAW,30,Racing Bulls,8.0,94.137,nan,,1,False,19.0,,,15.0,25.0,30.0,50.0
+LAW,30,Racing Bulls,9.0,94.094,nan,,1,False,19.0,,,15.0,25.0,30.0,50.0
+LAW,30,Racing Bulls,10.0,94.204,nan,,1,False,19.0,,,15.0,25.0,30.0,50.0
+LAW,30,Racing Bulls,11.0,93.99,nan,,1,False,19.0,,,15.0,25.0,30.0,50.0
+LAW,30,Racing Bulls,12.0,94.087,nan,,1,False,19.0,,,15.0,25.0,30.0,50.0
+LAW,30,Racing Bulls,13.0,94.351,nan,,1,False,19.0,,,15.0,25.0,30.0,50.0
+LAW,30,Racing Bulls,14.0,94.598,nan,,1,False,19.0,,,15.0,25.0,30.0,50.0
+LAW,30,Racing Bulls,15.0,94.692,nan,,1,False,19.0,,,15.0,25.0,30.0,50.0
+LAW,30,Racing Bulls,16.0,94.401,nan,,1,False,19.0,,,15.0,25.0,30.0,50.0
+LAW,30,Racing Bulls,17.0,94.82,nan,,1,False,19.0,,,15.0,25.0,30.0,50.0
+LAW,30,Racing Bulls,18.0,94.722,nan,,1,False,19.0,,,15.0,25.0,30.0,50.0
+LAW,30,Racing Bulls,19.0,94.501,nan,,1,False,19.0,,,15.0,25.0,30.0,50.0
+LAW,30,Racing Bulls,20.0,94.448,nan,,1,False,19.0,,,15.0,25.0,30.0,50.0
+LAW,30,Racing Bulls,21.0,94.492,nan,,1,False,19.0,,,15.0,25.0,30.0,50.0
+LAW,30,Racing Bulls,22.0,94.433,nan,,1,False,19.0,,,15.0,25.0,30.0,50.0
+LAW,30,Racing Bulls,23.0,94.53,nan,,1,False,19.0,,,15.0,25.0,30.0,50.0
+LAW,30,Racing Bulls,24.0,94.337,HARD,1.0,1,False,19.0,,,15.0,25.0,30.0,50.0
+LAW,30,Racing Bulls,25.0,94.094,HARD,2.0,1,False,19.0,,,15.0,25.0,30.0,50.0
+LAW,30,Racing Bulls,26.0,94.112,HARD,3.0,1,False,19.0,,,15.0,25.0,30.0,50.0
+LAW,30,Racing Bulls,27.0,94.372,HARD,4.0,1,False,19.0,,,15.0,25.0,30.0,50.0
+LAW,30,Racing Bulls,30.0,91.77,HARD,7.0,1,True,18.0,,,15.0,25.0,30.0,50.0
+LAW,30,Racing Bulls,31.0,92.361,HARD,8.0,1,False,17.0,,,15.0,25.0,30.0,50.0
+LAW,30,Racing Bulls,34.0,94.513,MEDIUM,3.0,1,False,17.0,,,15.0,25.0,30.0,50.0
+LAW,30,Racing Bulls,35.0,92.855,MEDIUM,4.0,1,False,17.0,,,15.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,4.0,92.67,nan,,1,True,10.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,5.0,92.756,nan,,1,False,10.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,6.0,93.113,nan,,1,False,10.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,7.0,93.054,nan,,1,False,10.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,8.0,93.145,nan,,1,False,10.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,9.0,94.012,nan,,1,False,10.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,10.0,93.278,nan,,1,False,10.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,11.0,93.257,nan,,1,False,10.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,12.0,93.153,nan,,1,False,10.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,13.0,93.061,nan,,1,False,10.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,14.0,93.214,nan,,1,False,10.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,15.0,93.377,nan,,1,False,10.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,16.0,93.697,nan,,1,False,10.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,17.0,93.186,nan,,1,False,10.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,18.0,93.61,nan,,1,False,10.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,19.0,93.406,nan,,1,False,10.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,20.0,92.989,nan,,1,False,10.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,21.0,93.479,nan,,1,False,10.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,22.0,95.102,nan,,1,False,11.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,25.0,91.358,HARD,2.0,1,True,16.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,26.0,91.463,HARD,3.0,1,False,16.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,27.0,91.96,HARD,4.0,1,False,16.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,30.0,91.122,HARD,7.0,1,True,14.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,31.0,91.877,HARD,8.0,1,False,14.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,34.0,91.33,HARD,11.0,1,False,13.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,35.0,91.511,HARD,12.0,1,False,13.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,36.0,91.65,HARD,13.0,1,False,12.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,37.0,91.747,HARD,14.0,1,False,12.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,38.0,91.603,HARD,15.0,1,False,12.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,39.0,91.553,HARD,16.0,1,False,12.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,40.0,91.562,HARD,17.0,1,False,12.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,41.0,91.339,HARD,18.0,1,False,12.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,42.0,91.542,HARD,19.0,1,False,12.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,43.0,91.67,HARD,20.0,1,False,12.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,44.0,91.836,HARD,21.0,1,False,12.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,45.0,92.099,HARD,22.0,1,False,12.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,46.0,91.838,HARD,23.0,1,False,12.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,47.0,91.662,HARD,24.0,1,False,12.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,48.0,91.533,HARD,25.0,1,False,12.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,49.0,91.924,HARD,26.0,1,False,12.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,50.0,91.642,HARD,27.0,1,False,12.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,51.0,91.586,HARD,28.0,1,False,12.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,52.0,91.766,HARD,29.0,1,False,12.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,53.0,91.815,HARD,30.0,1,False,12.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,54.0,91.794,HARD,31.0,1,False,12.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,55.0,91.586,HARD,32.0,1,False,12.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,56.0,91.482,HARD,33.0,1,False,12.0,,,9.0,25.0,30.0,50.0
+OCO,31,Haas F1 Team,57.0,91.846,HARD,34.0,1,False,12.0,,,9.0,25.0,30.0,50.0
+NOR,4,McLaren,4.0,92.128,nan,,1,True,5.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,5.0,92.639,nan,,1,False,5.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,6.0,92.634,nan,,1,False,5.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,7.0,93.008,nan,,1,False,4.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,8.0,92.427,nan,,1,False,4.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,9.0,92.146,nan,,1,False,3.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,10.0,91.901,nan,,1,True,3.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,11.0,91.7,nan,,1,True,3.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,12.0,91.905,nan,,1,False,3.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,13.0,91.745,nan,,1,False,3.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,14.0,92.333,nan,,1,False,3.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,15.0,93.943,nan,,1,False,3.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,16.0,93.099,nan,,1,False,3.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,17.0,94.855,nan,,1,False,3.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,18.0,92.384,nan,,1,False,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,19.0,92.038,nan,,1,False,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,20.0,91.884,nan,,1,False,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,21.0,91.555,nan,,1,True,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,22.0,91.537,nan,,1,True,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,23.0,91.478,nan,,1,True,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,24.0,91.312,nan,,1,True,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,25.0,91.453,MEDIUM,1.0,1,False,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,26.0,91.277,MEDIUM,2.0,1,True,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,27.0,91.612,MEDIUM,3.0,1,False,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,28.0,91.786,MEDIUM,4.0,1,False,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,31.0,90.375,MEDIUM,7.0,1,True,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,32.0,90.414,MEDIUM,8.0,1,False,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,35.0,89.834,HARD,3.0,1,True,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,36.0,89.746,HARD,4.0,1,True,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,37.0,89.975,HARD,5.0,1,False,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,38.0,90.196,HARD,6.0,1,False,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,39.0,90.168,HARD,7.0,1,False,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,40.0,90.117,HARD,8.0,1,False,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,41.0,90.168,HARD,9.0,1,False,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,42.0,90.163,HARD,10.0,1,False,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,43.0,90.144,HARD,11.0,1,False,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,44.0,90.024,HARD,12.0,1,False,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,45.0,90.095,HARD,13.0,1,False,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,46.0,89.982,HARD,14.0,1,False,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,47.0,90.055,HARD,15.0,1,False,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,48.0,90.11,HARD,16.0,1,False,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,49.0,90.211,HARD,17.0,1,False,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,50.0,89.791,HARD,18.0,1,False,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,51.0,89.9,HARD,19.0,1,False,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,52.0,90.398,HARD,20.0,1,False,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,53.0,90.54,HARD,21.0,1,False,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,54.0,90.475,HARD,22.0,1,False,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,55.0,90.764,HARD,23.0,1,False,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,56.0,90.732,HARD,24.0,1,False,2.0,,,2.0,25.0,30.0,50.0
+NOR,4,McLaren,57.0,90.985,HARD,25.0,1,False,2.0,,,2.0,25.0,30.0,50.0
+HAM,44,Ferrari,4.0,92.412,nan,,1,True,11.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,5.0,92.899,nan,,1,False,11.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,6.0,93.41,nan,,1,False,11.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,7.0,92.96,nan,,1,False,11.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,8.0,93.229,nan,,1,False,11.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,9.0,93.164,nan,,1,False,11.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,10.0,92.876,nan,,1,False,11.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,11.0,93.328,nan,,1,False,11.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,12.0,93.039,nan,,1,False,11.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,13.0,92.844,nan,,1,False,11.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,14.0,93.067,nan,,1,False,11.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,15.0,93.369,nan,,1,False,11.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,16.0,93.513,nan,,1,False,11.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,17.0,93.399,nan,,1,False,11.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,18.0,93.44,nan,,1,False,11.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,19.0,93.444,nan,,1,False,11.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,20.0,92.965,nan,,1,False,11.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,21.0,93.329,nan,,1,False,11.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,22.0,94.369,nan,,1,False,10.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,23.0,93.387,nan,,1,False,10.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,24.0,92.636,HARD,1.0,1,False,10.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,25.0,92.674,HARD,2.0,1,False,10.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,26.0,92.503,HARD,3.0,1,False,8.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,27.0,92.824,HARD,4.0,1,False,7.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,30.0,90.62,HARD,7.0,1,True,9.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,31.0,91.139,HARD,8.0,1,False,9.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,32.0,91.221,HARD,9.0,1,False,9.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,34.0,90.922,MEDIUM,2.0,1,False,8.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,35.0,90.562,MEDIUM,3.0,1,True,8.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,36.0,90.723,MEDIUM,4.0,1,False,8.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,37.0,90.856,MEDIUM,5.0,1,False,8.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,38.0,90.822,MEDIUM,6.0,1,False,7.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,39.0,90.961,MEDIUM,7.0,1,False,7.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,40.0,91.047,MEDIUM,8.0,1,False,7.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,41.0,91.289,MEDIUM,9.0,1,False,7.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,42.0,91.209,MEDIUM,10.0,1,False,7.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,43.0,91.522,MEDIUM,11.0,1,False,7.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,44.0,91.274,MEDIUM,12.0,1,False,7.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,45.0,91.046,MEDIUM,13.0,1,False,7.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,46.0,91.01,MEDIUM,14.0,1,False,7.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,47.0,91.473,MEDIUM,15.0,1,False,7.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,48.0,90.891,MEDIUM,16.0,1,False,7.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,49.0,90.886,MEDIUM,17.0,1,False,7.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,50.0,90.673,MEDIUM,18.0,1,False,7.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,51.0,90.756,MEDIUM,19.0,1,False,7.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,52.0,92.162,MEDIUM,20.0,1,False,8.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,53.0,90.779,MEDIUM,21.0,1,False,8.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,54.0,90.993,MEDIUM,22.0,1,False,8.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,55.0,90.999,MEDIUM,23.0,1,False,8.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,56.0,91.025,MEDIUM,24.0,1,False,8.0,,,12.0,25.0,30.0,50.0
+HAM,44,Ferrari,57.0,91.958,MEDIUM,25.0,1,False,8.0,,,12.0,25.0,30.0,50.0
+BOR,5,Kick Sauber,4.0,94.522,nan,,1,True,13.0,,,13.0,25.0,30.0,50.0
+BOR,5,Kick Sauber,5.0,93.194,nan,,1,True,13.0,,,13.0,25.0,30.0,50.0
+BOR,5,Kick Sauber,6.0,93.134,nan,,1,True,13.0,,,13.0,25.0,30.0,50.0
+BOR,5,Kick Sauber,7.0,93.607,nan,,1,False,13.0,,,13.0,25.0,30.0,50.0
+BOR,5,Kick Sauber,8.0,93.594,nan,,1,False,13.0,,,13.0,25.0,30.0,50.0
+BOR,5,Kick Sauber,9.0,93.269,nan,,1,False,13.0,,,13.0,25.0,30.0,50.0
+BOR,5,Kick Sauber,10.0,93.439,nan,,1,False,13.0,,,13.0,25.0,30.0,50.0
+BOR,5,Kick Sauber,11.0,93.561,nan,,1,False,13.0,,,13.0,25.0,30.0,50.0
+BOR,5,Kick Sauber,12.0,93.381,nan,,1,False,13.0,,,13.0,25.0,30.0,50.0
+BOR,5,Kick Sauber,13.0,93.402,nan,,1,False,13.0,,,13.0,25.0,30.0,50.0
+BOR,5,Kick Sauber,14.0,93.203,nan,,1,False,13.0,,,13.0,25.0,30.0,50.0
+BOR,5,Kick Sauber,15.0,93.547,nan,,1,False,13.0,,,13.0,25.0,30.0,50.0
+BOR,5,Kick Sauber,16.0,93.778,nan,,1,False,13.0,,,13.0,25.0,30.0,50.0
+BOR,5,Kick Sauber,17.0,93.581,nan,,1,False,13.0,,,13.0,25.0,30.0,50.0
+BOR,5,Kick Sauber,18.0,93.89,nan,,1,False,13.0,,,13.0,25.0,30.0,50.0
+BOR,5,Kick Sauber,21.0,92.328,nan,,1,True,17.0,,,13.0,25.0,30.0,50.0
+BOR,5,Kick Sauber,22.0,92.414,nan,,1,False,17.0,,,13.0,25.0,30.0,50.0
+BOR,5,Kick Sauber,23.0,92.423,nan,,1,False,17.0,,,13.0,25.0,30.0,50.0
+BOR,5,Kick Sauber,24.0,93.275,HARD,1.0,1,False,17.0,,,13.0,25.0,30.0,50.0
+BOR,5,Kick Sauber,25.0,93.162,HARD,2.0,1,False,17.0,,,13.0,25.0,30.0,50.0
+BOR,5,Kick Sauber,26.0,92.822,HARD,3.0,1,False,17.0,,,13.0,25.0,30.0,50.0
+BOR,5,Kick Sauber,27.0,92.42,HARD,4.0,1,False,17.0,,,13.0,25.0,30.0,50.0
+BOR,5,Kick Sauber,30.0,117.049,HARD,7.0,1,False,17.0,,,13.0,25.0,30.0,50.0
+SAI,55,Williams,4.0,92.521,nan,,1,True,7.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,5.0,92.332,nan,,1,True,6.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,6.0,93.317,nan,,1,False,6.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,7.0,93.029,nan,,1,False,6.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,8.0,93.23,nan,,1,False,6.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,9.0,93.1,nan,,1,False,6.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,10.0,92.906,nan,,1,False,6.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,11.0,93.652,nan,,1,False,6.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,12.0,93.379,nan,,1,False,6.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,13.0,93.044,nan,,1,False,6.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,14.0,93.614,nan,,1,False,7.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,15.0,93.538,nan,,1,False,7.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,16.0,92.915,nan,,1,False,7.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,17.0,92.857,nan,,1,False,7.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,18.0,93.257,nan,,1,False,7.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,19.0,92.546,nan,,1,False,7.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,20.0,92.658,nan,,1,False,7.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,21.0,93.213,nan,,1,False,7.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,22.0,92.858,nan,,1,False,7.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,23.0,92.557,nan,,1,False,7.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,24.0,92.846,nan,,1,False,7.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,27.0,91.198,MEDIUM,9.0,1,True,10.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,30.0,91.546,MEDIUM,12.0,1,False,8.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,31.0,92.773,MEDIUM,13.0,1,False,7.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,32.0,91.597,MEDIUM,14.0,1,False,7.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,34.0,91.979,HARD,2.0,1,False,9.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,35.0,90.703,HARD,3.0,1,True,9.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,36.0,91.132,HARD,4.0,1,False,9.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,37.0,91.0,HARD,5.0,1,False,9.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,38.0,91.414,HARD,6.0,1,False,9.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,39.0,91.285,HARD,7.0,1,False,9.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,40.0,91.558,HARD,8.0,1,False,9.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,41.0,91.21,HARD,9.0,1,False,9.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,42.0,91.159,HARD,10.0,1,False,9.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,43.0,91.248,HARD,11.0,1,False,9.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,44.0,91.157,HARD,12.0,1,False,9.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,45.0,91.288,HARD,13.0,1,False,9.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,46.0,91.038,HARD,14.0,1,False,9.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,47.0,91.128,HARD,15.0,1,False,9.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,48.0,90.933,HARD,16.0,1,False,9.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,49.0,90.849,HARD,17.0,1,False,9.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,50.0,90.98,HARD,18.0,1,False,9.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,51.0,90.813,HARD,19.0,1,False,9.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,52.0,90.763,HARD,20.0,1,False,9.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,53.0,90.877,HARD,21.0,1,False,9.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,54.0,90.904,HARD,22.0,1,False,9.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,55.0,90.801,HARD,23.0,1,False,9.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,56.0,91.178,HARD,24.0,1,False,9.0,,,6.0,25.0,30.0,50.0
+SAI,55,Williams,57.0,91.259,HARD,25.0,1,False,9.0,,,6.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,4.0,94.546,nan,,1,True,12.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,5.0,92.963,nan,,1,True,12.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,6.0,93.291,nan,,1,False,12.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,7.0,93.114,nan,,1,False,12.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,8.0,93.342,nan,,1,False,12.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,9.0,93.399,nan,,1,False,12.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,10.0,93.205,nan,,1,False,12.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,11.0,93.095,nan,,1,False,12.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,12.0,93.235,nan,,1,False,12.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,13.0,93.145,nan,,1,False,12.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,14.0,93.641,nan,,1,False,12.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,15.0,93.241,nan,,1,False,12.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,16.0,93.151,nan,,1,False,12.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,17.0,93.366,nan,,1,False,12.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,18.0,93.33,nan,,1,False,12.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,19.0,93.365,nan,,1,False,12.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,20.0,93.29,nan,,1,False,12.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,21.0,93.069,nan,,1,False,12.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,24.0,92.032,HARD,1.0,1,True,15.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,25.0,91.644,HARD,2.0,1,True,15.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,26.0,91.853,HARD,3.0,1,False,15.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,27.0,91.902,HARD,4.0,1,False,15.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,30.0,91.233,HARD,7.0,1,True,13.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,31.0,91.671,HARD,8.0,1,False,13.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,34.0,91.309,HARD,11.0,1,False,12.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,35.0,91.488,HARD,12.0,1,False,12.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,36.0,91.73,HARD,13.0,1,False,11.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,37.0,91.747,HARD,14.0,1,False,11.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,38.0,91.452,HARD,15.0,1,False,11.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,39.0,91.507,HARD,16.0,1,False,11.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,40.0,91.544,HARD,17.0,1,False,11.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,41.0,91.573,HARD,18.0,1,False,11.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,42.0,91.481,HARD,19.0,1,False,11.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,43.0,91.438,HARD,20.0,1,False,11.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,44.0,91.459,HARD,21.0,1,False,11.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,45.0,91.512,HARD,22.0,1,False,11.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,46.0,91.53,HARD,23.0,1,False,11.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,47.0,91.572,HARD,24.0,1,False,11.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,48.0,91.172,HARD,25.0,1,True,11.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,49.0,91.042,HARD,26.0,1,True,11.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,50.0,90.997,HARD,27.0,1,True,11.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,51.0,90.971,HARD,28.0,1,True,11.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,52.0,91.228,HARD,29.0,1,False,11.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,53.0,91.309,HARD,30.0,1,False,11.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,54.0,91.217,HARD,31.0,1,False,11.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,55.0,91.128,HARD,32.0,1,False,11.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,56.0,91.336,HARD,33.0,1,False,11.0,,,11.0,25.0,30.0,50.0
+HAD,6,Racing Bulls,57.0,91.313,HARD,34.0,1,False,11.0,,,11.0,25.0,30.0,50.0
+RUS,63,Mercedes,4.0,92.646,nan,,1,True,4.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,5.0,92.779,nan,,1,False,4.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,6.0,93.036,nan,,1,False,4.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,7.0,94.362,nan,,1,False,5.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,8.0,93.136,nan,,1,False,5.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,9.0,92.951,nan,,1,False,5.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,10.0,93.161,nan,,1,False,5.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,11.0,92.67,nan,,1,False,5.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,12.0,92.836,nan,,1,False,5.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,13.0,92.829,nan,,1,False,5.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,14.0,92.719,nan,,1,False,5.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,15.0,92.755,nan,,1,False,5.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,16.0,92.886,nan,,1,False,5.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,17.0,92.69,nan,,1,False,5.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,18.0,93.1,nan,,1,False,5.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,19.0,92.858,nan,,1,False,5.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,20.0,92.751,nan,,1,False,5.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,21.0,92.82,nan,,1,False,5.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,22.0,92.592,nan,,1,True,5.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,23.0,92.432,nan,,1,True,5.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,24.0,92.54,nan,,1,False,5.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,25.0,92.356,HARD,1.0,1,True,4.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,26.0,92.02,HARD,2.0,1,True,3.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,27.0,92.164,HARD,3.0,1,False,3.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,28.0,92.391,HARD,4.0,1,False,3.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,31.0,90.318,HARD,7.0,1,True,3.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,32.0,91.208,HARD,8.0,1,False,3.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,34.0,90.826,MEDIUM,2.0,1,False,3.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,35.0,90.856,MEDIUM,3.0,1,False,3.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,36.0,91.119,MEDIUM,4.0,1,False,3.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,37.0,91.197,MEDIUM,5.0,1,False,3.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,38.0,90.859,MEDIUM,6.0,1,False,3.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,39.0,91.0,MEDIUM,7.0,1,False,3.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,40.0,90.903,MEDIUM,8.0,1,False,3.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,41.0,90.848,MEDIUM,9.0,1,False,3.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,42.0,90.755,MEDIUM,10.0,1,False,3.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,43.0,90.96,MEDIUM,11.0,1,False,3.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,44.0,90.795,MEDIUM,12.0,1,False,3.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,45.0,90.837,MEDIUM,13.0,1,False,3.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,46.0,90.778,MEDIUM,14.0,1,False,3.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,47.0,90.879,MEDIUM,15.0,1,False,3.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,48.0,90.821,MEDIUM,16.0,1,False,3.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,49.0,90.942,MEDIUM,17.0,1,False,3.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,50.0,90.752,MEDIUM,18.0,1,False,3.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,51.0,90.644,MEDIUM,19.0,1,False,3.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,52.0,90.637,MEDIUM,20.0,1,False,3.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,53.0,90.518,MEDIUM,21.0,1,False,3.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,54.0,90.516,MEDIUM,22.0,1,False,3.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,55.0,90.789,MEDIUM,23.0,1,False,3.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,56.0,91.001,MEDIUM,24.0,1,False,3.0,,,5.0,25.0,30.0,50.0
+RUS,63,Mercedes,57.0,91.005,MEDIUM,25.0,1,False,3.0,,,5.0,25.0,30.0,50.0
+PIA,81,McLaren,4.0,91.92,nan,,1,True,2.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,5.0,92.282,nan,,1,False,2.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,6.0,92.047,nan,,1,False,2.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,7.0,92.197,nan,,1,False,2.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,8.0,91.985,nan,,1,False,2.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,9.0,92.236,nan,,1,False,2.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,10.0,92.076,nan,,1,False,2.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,11.0,92.9,nan,,1,False,2.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,12.0,92.253,nan,,1,False,2.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,13.0,91.879,nan,,1,True,2.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,14.0,92.986,nan,,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,15.0,91.816,nan,,1,True,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,16.0,91.687,nan,,1,True,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,17.0,91.793,nan,,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,18.0,91.954,nan,,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,19.0,91.662,nan,,1,True,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,20.0,91.711,nan,,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,21.0,91.822,nan,,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,22.0,91.843,nan,,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,23.0,91.465,nan,,1,True,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,24.0,91.429,nan,,1,True,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,25.0,91.392,MEDIUM,1.0,1,True,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,26.0,91.507,MEDIUM,2.0,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,27.0,91.432,MEDIUM,3.0,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,28.0,91.718,MEDIUM,4.0,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,31.0,90.17,MEDIUM,7.0,1,True,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,32.0,90.211,MEDIUM,8.0,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,35.0,89.822,HARD,3.0,1,True,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,36.0,90.201,HARD,4.0,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,37.0,90.07,HARD,5.0,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,38.0,90.167,HARD,6.0,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,39.0,90.194,HARD,7.0,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,40.0,90.236,HARD,8.0,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,41.0,90.37,HARD,9.0,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,42.0,90.307,HARD,10.0,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,43.0,90.413,HARD,11.0,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,44.0,90.137,HARD,12.0,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,45.0,90.589,HARD,13.0,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,46.0,90.653,HARD,14.0,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,47.0,90.372,HARD,15.0,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,48.0,90.559,HARD,16.0,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,49.0,89.992,HARD,17.0,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,50.0,90.136,HARD,18.0,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,51.0,90.103,HARD,19.0,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,52.0,90.245,HARD,20.0,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,53.0,90.658,HARD,21.0,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,54.0,90.269,HARD,22.0,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,55.0,90.761,HARD,23.0,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,56.0,90.579,HARD,24.0,1,False,1.0,,,4.0,25.0,30.0,50.0
+PIA,81,McLaren,57.0,90.441,HARD,25.0,1,False,1.0,,,4.0,25.0,30.0,50.0
+BEA,87,Haas F1 Team,4.0,93.844,nan,,1,True,16.0,,,20.0,25.0,30.0,50.0
+BEA,87,Haas F1 Team,5.0,93.888,nan,,1,False,16.0,,,20.0,25.0,30.0,50.0
+BEA,87,Haas F1 Team,6.0,93.489,nan,,1,True,16.0,,,20.0,25.0,30.0,50.0
+BEA,87,Haas F1 Team,7.0,93.424,nan,,1,True,16.0,,,20.0,25.0,30.0,50.0
+BEA,87,Haas F1 Team,8.0,93.55,nan,,1,False,16.0,,,20.0,25.0,30.0,50.0
+BEA,87,Haas F1 Team,9.0,93.626,nan,,1,False,16.0,,,20.0,25.0,30.0,50.0
+BEA,87,Haas F1 Team,10.0,93.757,nan,,1,False,16.0,,,20.0,25.0,30.0,50.0
+BEA,87,Haas F1 Team,11.0,93.726,nan,,1,False,16.0,,,20.0,25.0,30.0,50.0
+BEA,87,Haas F1 Team,12.0,93.36,nan,,1,True,16.0,,,20.0,25.0,30.0,50.0
+BEA,87,Haas F1 Team,13.0,93.637,nan,,1,False,16.0,,,20.0,25.0,30.0,50.0
+BEA,87,Haas F1 Team,14.0,94.268,nan,,1,False,16.0,,,20.0,25.0,30.0,50.0
+BEA,87,Haas F1 Team,15.0,93.878,nan,,1,False,16.0,,,20.0,25.0,30.0,50.0
+BEA,87,Haas F1 Team,16.0,93.584,nan,,1,False,16.0,,,20.0,25.0,30.0,50.0
+BEA,87,Haas F1 Team,17.0,93.997,nan,,1,False,16.0,,,20.0,25.0,30.0,50.0
+BEA,87,Haas F1 Team,18.0,93.693,nan,,1,False,16.0,,,20.0,25.0,30.0,50.0
+BEA,87,Haas F1 Team,19.0,93.533,nan,,1,False,15.0,,,20.0,25.0,30.0,50.0
+BEA,87,Haas F1 Team,20.0,93.613,nan,,1,False,14.0,,,20.0,25.0,30.0,50.0
+BEA,87,Haas F1 Team,21.0,93.087,nan,,1,True,14.0,,,20.0,25.0,30.0,50.0
+BEA,87,Haas F1 Team,22.0,92.971,nan,,1,True,14.0,,,20.0,25.0,30.0,50.0
+BEA,87,Haas F1 Team,23.0,93.088,nan,,1,False,13.0,,,20.0,25.0,30.0,50.0
+BEA,87,Haas F1 Team,24.0,92.68,HARD,1.0,1,True,12.0,,,20.0,25.0,30.0,50.0
+BEA,87,Haas F1 Team,25.0,93.054,HARD,2.0,1,False,12.0,,,20.0,25.0,30.0,50.0
+BEA,87,Haas F1 Team,26.0,94.14,HARD,3.0,1,False,12.0,,,20.0,25.0,30.0,50.0
+BEA,87,Haas F1 Team,27.0,93.604,HARD,4.0,1,False,13.0,,,20.0,25.0,30.0,50.0

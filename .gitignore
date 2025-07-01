@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pkl
+.env
+venv/
+
+# Node / React
+node_modules/
+dist/
+.vite/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Project-specific (large data and cache folders)
+backend/f1_cache/
+backend/models_data/
+backend/processed_race_data/
