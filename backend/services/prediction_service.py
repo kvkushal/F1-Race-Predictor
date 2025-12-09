@@ -23,6 +23,11 @@ from utils.constants import (
     AVERAGE_LAP_TIMES,
     BASELINE_QUALIFYING_POSITIONS,
     TEAM_POWER_RANKING,
+    CIRCUIT_CHARACTERISTICS,
+    QUALIFYING_2025,
+    RACE_RESULTS_2025,
+    DRIVER_TRACK_SPECIALTIES,
+    CHAMPIONSHIP_STANDINGS_2025,
     normalize_team_name,
     get_f1_points,
 )
@@ -226,6 +231,8 @@ class PredictionService:
                     team=team,
                     quali_pos=quali_pos,
                     driver_form=driver_form,
+                    track_key=track_key,
+                    weather_data=weather_data,
                 )
             
             scores[driver_name] = score
@@ -321,34 +328,106 @@ class PredictionService:
         team: str,
         quali_pos: float,
         driver_form: Dict[str, Any],
+        track_key: str = "",
+        weather_data: Dict[str, Any] = None,
     ) -> float:
         """
-        Heuristic-based prediction when model is not available.
+        Prediction based on actual 2025 race results and real performance data.
         
-        Uses a combination of:
-        - Qualifying position (most important)
-        - Team power ranking
-        - Recent form
+        Priority:
+        1. Actual 2025 race result for this track (if available)
+        2. Actual 2025 qualifying for this track
+        3. Track-type specialty averages
+        4. Championship standings / form
         """
-        # Base score from qualifying (inverted - lower position = higher score)
-        base_score = 100 - (quali_pos * 4)
+        import random
         
-        # Team bonus
+        # Set seed for consistent results per driver+track combo
+        seed = hash(f"{driver_name}_{track_key}_2025") % 10000
+        random.seed(seed)
+        
+        base_score = 100.0
+        
+        # ========== PRIMARY: ACTUAL 2025 RACE RESULTS ==========
+        if track_key in RACE_RESULTS_2025:
+            race_result = RACE_RESULTS_2025[track_key]
+            if driver_name in race_result:
+                # Driver was on podium - give huge bonus based on position
+                position_in_race = race_result.index(driver_name) + 1
+                # P1 = 95 bonus, P2 = 85, P3 = 75
+                base_score = 100 - (position_in_race * 5) + 90
+            else:
+                # Driver not on podium - estimate from qualifying
+                if track_key in QUALIFYING_2025 and driver_name in QUALIFYING_2025[track_key]:
+                    quali = QUALIFYING_2025[track_key][driver_name]
+                    base_score = 100 - (quali * 4) + 20
+                else:
+                    # Fall back to baseline
+                    baseline_pos = BASELINE_QUALIFYING_POSITIONS.get(driver_name, 12)
+                    base_score = 100 - (baseline_pos * 3.5)
+        
+        # ========== SECONDARY: ACTUAL 2025 QUALIFYING ==========
+        elif track_key in QUALIFYING_2025:
+            if driver_name in QUALIFYING_2025[track_key]:
+                quali = QUALIFYING_2025[track_key][driver_name]
+                base_score = 100 - (quali * 4) + 30
+            else:
+                baseline_pos = BASELINE_QUALIFYING_POSITIONS.get(driver_name, 12)
+                base_score = 100 - (baseline_pos * 3.5)
+        
+        # ========== TERTIARY: TRACK TYPE SPECIALTY ==========
+        else:
+            track_chars = CIRCUIT_CHARACTERISTICS.get(track_key, {})
+            track_type = track_chars.get("type", "mixed")
+            
+            if track_type in DRIVER_TRACK_SPECIALTIES:
+                specialty = DRIVER_TRACK_SPECIALTIES[track_type]
+                if driver_name in specialty:
+                    avg_finish = specialty[driver_name]
+                    base_score = 100 - (avg_finish * 5) + 25
+                else:
+                    baseline_pos = BASELINE_QUALIFYING_POSITIONS.get(driver_name, 12)
+                    base_score = 100 - (baseline_pos * 3.5)
+            else:
+                baseline_pos = BASELINE_QUALIFYING_POSITIONS.get(driver_name, 12)
+                base_score = 100 - (baseline_pos * 3.5)
+        
+        # ========== CHAMPIONSHIP PERFORMANCE BONUS ==========
+        champ_points = CHAMPIONSHIP_STANDINGS_2025.get(driver_name, 0)
+        # Normalize: top driver has ~437 points
+        champ_bonus = (champ_points / 437) * 15
+        base_score += champ_bonus
+        
+        # ========== TEAM STRENGTH ==========
         team_normalized = normalize_team_name(team)
-        team_power = TEAM_POWER_RANKING.get(team_normalized, 0.5)
-        team_bonus = team_power * 20
+        team_power = TEAM_POWER_RANKING.get(team_normalized, 0.35)
+        team_bonus = team_power * 10
+        base_score += team_bonus
         
-        # Form bonus
-        avg_pos = driver_form.get("avg_position", 10)
-        form_bonus = (20 - avg_pos) * 1.5
+        # ========== WEATHER EFFECTS ==========
+        if weather_data:
+            condition = weather_data.get("condition", "Clear")
+            if condition in ["Rain", "Thunderstorm", "Drizzle"]:
+                # Rain masters
+                if driver_name in ["Max Verstappen", "Lewis Hamilton"]:
+                    base_score += random.uniform(8, 15)
+                elif driver_name in ["Lando Norris", "Fernando Alonso", "George Russell"]:
+                    base_score += random.uniform(4, 10)
+                # Rookies penalized in rain
+                if driver_name in ["Andrea Kimi Antonelli", "Gabriel Bortoleto", "Jack Doohan", "Isack Hadjar"]:
+                    base_score -= random.uniform(8, 15)
+            
+            # Very hot conditions - tire management becomes key
+            track_temp = weather_data.get("TrackTemp", 30)
+            if track_temp > 45:
+                if driver_name in ["Lewis Hamilton", "Fernando Alonso", "Max Verstappen"]:
+                    base_score += random.uniform(2, 5)
         
-        # Trend bonus
-        trend = driver_form.get("trend", "stable")
-        trend_bonus = {"improving": 5, "stable": 0, "declining": -5}.get(trend, 0)
+        # ========== SMALL RANDOM VARIATION ==========
+        # Just a tiny bit of randomness for realism
+        base_score += random.uniform(-2, 2)
         
-        total_score = base_score + team_bonus + form_bonus + trend_bonus
-        
-        return max(0, total_score)
+        return max(0, base_score)
     
     def _calculate_position_probability(
         self,

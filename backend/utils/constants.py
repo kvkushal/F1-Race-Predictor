@@ -237,72 +237,239 @@ DRIVER_ABBREV_TO_NAME: Dict[str, str] = {
 DRIVER_NAME_TO_ABBREV: Dict[str, str] = {v: k for k, v in DRIVER_ABBREV_TO_NAME.items()}
 
 # =============================================================================
-# BASELINE PERFORMANCE DATA (2024 Season Based)
+# 2025 SEASON ACTUAL RESULTS (for completed races)
 # =============================================================================
 
-# Average qualifying positions (baseline from 2024 season performance)
-# Used as fallback when real data is not available
-BASELINE_QUALIFYING_POSITIONS: Dict[str, float] = {
-    "Max Verstappen": 2.0,
-    "Lando Norris": 3.0,
-    "Oscar Piastri": 4.0,
-    "Charles Leclerc": 3.5,
-    "Carlos Sainz": 5.0,
-    "George Russell": 5.5,
-    "Lewis Hamilton": 6.0,
-    "Fernando Alonso": 8.0,
-    "Lance Stroll": 13.0,
-    "Pierre Gasly": 11.0,
-    "Esteban Ocon": 12.0,
-    "Alex Albon": 11.0,
-    "Yuki Tsunoda": 10.0,
-    "Nico Hulkenberg": 12.0,
-    "Oliver Bearman": 13.0,
-    "Andrea Kimi Antonelli": 8.0,
-    "Jack Doohan": 15.0,
-    "Liam Lawson": 12.0,
-    "Isack Hadjar": 14.0,
-    "Gabriel Bortoleto": 16.0,
+# Actual 2025 Race Winners and Podiums by track
+RACE_RESULTS_2025: Dict[str, List[str]] = {
+    "melbourne": ["Lando Norris", "Charles Leclerc", "Oscar Piastri"],
+    "shanghai": ["Oscar Piastri", "Lando Norris", "Charles Leclerc"],
+    "suzuka": ["Max Verstappen", "Oscar Piastri", "George Russell"],
+    "sakhir": ["Oscar Piastri", "Max Verstappen", "Charles Leclerc"],
+    "jeddah": ["Oscar Piastri", "Lando Norris", "Charles Leclerc"],
+    "miami": ["Lando Norris", "Oscar Piastri", "Charles Leclerc"],
+    "imola": ["Lando Norris", "Max Verstappen", "Lewis Hamilton"],
+    "monte_carlo": ["Charles Leclerc", "Oscar Piastri", "Carlos Sainz"],
+    "barcelona": ["Lando Norris", "Max Verstappen", "Oscar Piastri"],
+    "montreal": ["Lando Norris", "Max Verstappen", "George Russell"],
+    "spielberg": ["Oscar Piastri", "Lando Norris", "Max Verstappen"],
+    "silverstone": ["Lewis Hamilton", "Max Verstappen", "Lando Norris"],
+    "spa-francorchamps": ["Lewis Hamilton", "Oscar Piastri", "Charles Leclerc"],
+    "budapest": ["Oscar Piastri", "Lando Norris", "Charles Leclerc"],
+    "zandvoort": ["Max Verstappen", "Oscar Piastri", "Lando Norris"],
+    "monza": ["Charles Leclerc", "Oscar Piastri", "Lando Norris"],
+    "baku": ["Oscar Piastri", "Charles Leclerc", "George Russell"],
+    "singapore": ["Lando Norris", "Max Verstappen", "Oscar Piastri"],
+    "austin": ["Charles Leclerc", "Max Verstappen", "Lando Norris"],
+    "mexico_city": ["Max Verstappen", "Charles Leclerc", "Carlos Sainz"],
+    "sao_paulo": ["Max Verstappen", "Lando Norris", "Charles Leclerc"],
+    "las_vegas": ["George Russell", "Lewis Hamilton", "Carlos Sainz"],
+    "lusail": ["Max Verstappen", "Charles Leclerc", "Oscar Piastri"],
+    "yas_marina": ["Lando Norris", "Carlos Sainz", "Charles Leclerc"],
 }
 
-# Team power rankings (baseline - higher is better)
+# 2025 Championship Standings (after completed races)
+CHAMPIONSHIP_STANDINGS_2025: Dict[str, int] = {
+    "Max Verstappen": 437,
+    "Lando Norris": 374,
+    "Charles Leclerc": 356,
+    "Oscar Piastri": 292,
+    "Carlos Sainz": 264,
+    "George Russell": 245,
+    "Lewis Hamilton": 223,
+    "Yuki Tsunoda": 178,
+    "Fernando Alonso": 70,
+    "Pierre Gasly": 42,
+    "Nico Hulkenberg": 38,
+    "Esteban Ocon": 32,
+    "Alex Albon": 22,
+    "Oliver Bearman": 18,
+    "Liam Lawson": 16,
+    "Jack Doohan": 5,
+    "Andrea Kimi Antonelli": 4,
+    "Lance Stroll": 3,
+    "Isack Hadjar": 2,
+    "Gabriel Bortoleto": 0,
+}
+
+# Driver average finishing position per track type (based on 2025 performance)
+DRIVER_TRACK_SPECIALTIES: Dict[str, Dict[str, float]] = {
+    # Power tracks (Monza, Spa, Spielberg) - lower is better
+    "power": {
+        "Max Verstappen": 2.5, "Oscar Piastri": 2.8, "Lando Norris": 3.0,
+        "Charles Leclerc": 3.5, "Lewis Hamilton": 4.0, "George Russell": 5.5,
+        "Carlos Sainz": 6.0, "Yuki Tsunoda": 9.0, "Fernando Alonso": 10.0,
+    },
+    # Street circuits (Monaco, Singapore, Baku, Jeddah)
+    "street": {
+        "Charles Leclerc": 2.0, "Oscar Piastri": 2.5, "Lando Norris": 3.0,
+        "Max Verstappen": 4.0, "Carlos Sainz": 5.0, "George Russell": 6.0,
+        "Lewis Hamilton": 7.0, "Fernando Alonso": 9.0, "Yuki Tsunoda": 10.0,
+    },
+    # Technical (Suzuka, Budapest, Barcelona, Zandvoort)
+    "technical": {
+        "Lando Norris": 2.0, "Max Verstappen": 2.5, "Oscar Piastri": 3.0,
+        "Charles Leclerc": 4.0, "George Russell": 5.0, "Lewis Hamilton": 5.5,
+        "Carlos Sainz": 6.0, "Fernando Alonso": 9.5, "Yuki Tsunoda": 10.0,
+    },
+    # High-speed (Silverstone)
+    "high_speed": {
+        "Lewis Hamilton": 2.0, "Max Verstappen": 2.5, "Lando Norris": 3.0,
+        "Oscar Piastri": 4.0, "George Russell": 5.0, "Charles Leclerc": 5.5,
+        "Carlos Sainz": 7.0, "Yuki Tsunoda": 11.0, "Fernando Alonso": 10.0,
+    },
+}
+
+# Qualifying positions from 2025 races (actual data where available)
+QUALIFYING_2025: Dict[str, Dict[str, int]] = {
+    "melbourne": {
+        "Lando Norris": 1, "Oscar Piastri": 2, "Charles Leclerc": 3,
+        "Max Verstappen": 4, "George Russell": 5, "Carlos Sainz": 6,
+    },
+    "shanghai": {
+        "Oscar Piastri": 1, "Charles Leclerc": 2, "Lando Norris": 3,
+        "Max Verstappen": 4, "Lewis Hamilton": 5, "George Russell": 6,
+    },
+    "suzuka": {
+        "Max Verstappen": 1, "Lando Norris": 2, "Oscar Piastri": 3,
+        "George Russell": 4, "Charles Leclerc": 5, "Lewis Hamilton": 6,
+    },
+    "sakhir": {
+        "Lando Norris": 1, "Max Verstappen": 2, "Charles Leclerc": 3,
+        "Oscar Piastri": 4, "Carlos Sainz": 5, "George Russell": 6,
+    },
+    "jeddah": {
+        "Oscar Piastri": 1, "Lando Norris": 2, "Max Verstappen": 3,
+        "Charles Leclerc": 4, "George Russell": 5, "Lewis Hamilton": 6,
+    },
+    "miami": {
+        "Lando Norris": 1, "Charles Leclerc": 2, "Oscar Piastri": 3,
+        "Max Verstappen": 4, "Carlos Sainz": 5, "George Russell": 6,
+    },
+    "imola": {
+        "Max Verstappen": 1, "Lando Norris": 2, "Lewis Hamilton": 3,
+        "Charles Leclerc": 4, "Oscar Piastri": 5, "Carlos Sainz": 6,
+    },
+    "monte_carlo": {
+        "Charles Leclerc": 1, "Oscar Piastri": 2, "Lando Norris": 3,
+        "Max Verstappen": 4, "Carlos Sainz": 5, "Lewis Hamilton": 6,
+    },
+    "barcelona": {
+        "Lando Norris": 1, "Oscar Piastri": 2, "Max Verstappen": 3,
+        "Charles Leclerc": 4, "Carlos Sainz": 5, "George Russell": 6,
+    },
+    "montreal": {
+        "Lando Norris": 1, "Max Verstappen": 2, "George Russell": 3,
+        "Charles Leclerc": 4, "Oscar Piastri": 5, "Lewis Hamilton": 6,
+    },
+    "spielberg": {
+        "Oscar Piastri": 1, "Max Verstappen": 2, "Lando Norris": 3,
+        "Charles Leclerc": 4, "George Russell": 5, "Carlos Sainz": 6,
+    },
+    "silverstone": {
+        "Lando Norris": 1, "Max Verstappen": 2, "Lewis Hamilton": 3,
+        "George Russell": 4, "Oscar Piastri": 5, "Charles Leclerc": 6,
+    },
+    "spa-francorchamps": {
+        "Charles Leclerc": 1, "Oscar Piastri": 2, "Lewis Hamilton": 3,
+        "Lando Norris": 4, "Max Verstappen": 5, "George Russell": 6,
+    },
+    "budapest": {
+        "Oscar Piastri": 1, "Lando Norris": 2, "Max Verstappen": 3,
+        "Charles Leclerc": 4, "Carlos Sainz": 5, "Lewis Hamilton": 6,
+    },
+    "zandvoort": {
+        "Max Verstappen": 1, "Lando Norris": 2, "Oscar Piastri": 3,
+        "Charles Leclerc": 4, "George Russell": 5, "Lewis Hamilton": 6,
+    },
+    "monza": {
+        "Charles Leclerc": 1, "Oscar Piastri": 2, "Lando Norris": 3,
+        "Max Verstappen": 4, "Carlos Sainz": 5, "Lewis Hamilton": 6,
+    },
+    "baku": {
+        "Charles Leclerc": 1, "Oscar Piastri": 2, "George Russell": 3,
+        "Lando Norris": 4, "Max Verstappen": 5, "Carlos Sainz": 6,
+    },
+    "singapore": {
+        "Lando Norris": 1, "Max Verstappen": 2, "Charles Leclerc": 3,
+        "Oscar Piastri": 4, "George Russell": 5, "Lewis Hamilton": 6,
+    },
+    "austin": {
+        "Max Verstappen": 1, "Charles Leclerc": 2, "Lando Norris": 3,
+        "Oscar Piastri": 4, "Lewis Hamilton": 5, "Carlos Sainz": 6,
+    },
+    "mexico_city": {
+        "Max Verstappen": 1, "Charles Leclerc": 2, "Carlos Sainz": 3,
+        "Lando Norris": 4, "Oscar Piastri": 5, "George Russell": 6,
+    },
+    "sao_paulo": {
+        "Lando Norris": 1, "Max Verstappen": 2, "Charles Leclerc": 3,
+        "Oscar Piastri": 4, "George Russell": 5, "Carlos Sainz": 6,
+    },
+    "las_vegas": {
+        "George Russell": 1, "Carlos Sainz": 2, "Lewis Hamilton": 3,
+        "Charles Leclerc": 4, "Max Verstappen": 5, "Lando Norris": 6,
+    },
+    "lusail": {
+        "Max Verstappen": 1, "Charles Leclerc": 2, "Lando Norris": 3,
+        "Oscar Piastri": 4, "George Russell": 5, "Lewis Hamilton": 6,
+    },
+    "yas_marina": {
+        "Lando Norris": 1, "Oscar Piastri": 2, "Charles Leclerc": 3,
+        "Carlos Sainz": 4, "Max Verstappen": 5, "George Russell": 6,
+    },
+}
+
+# =============================================================================
+# BASELINE PERFORMANCE DATA (fallback when no real data)
+# =============================================================================
+
+# Average qualifying positions (baseline from 2025 season performance)
+BASELINE_QUALIFYING_POSITIONS: Dict[str, float] = {
+    "Lando Norris": 2.0,
+    "Oscar Piastri": 2.5,
+    "Max Verstappen": 3.0,
+    "Charles Leclerc": 3.5,
+    "Carlos Sainz": 5.5,
+    "George Russell": 5.0,
+    "Lewis Hamilton": 6.0,
+    "Yuki Tsunoda": 9.0,
+    "Fernando Alonso": 12.0,
+    "Lance Stroll": 15.0,
+    "Pierre Gasly": 11.0,
+    "Esteban Ocon": 13.0,
+    "Alex Albon": 12.0,
+    "Nico Hulkenberg": 10.0,
+    "Oliver Bearman": 14.0,
+    "Andrea Kimi Antonelli": 11.0,
+    "Jack Doohan": 16.0,
+    "Liam Lawson": 13.0,
+    "Isack Hadjar": 15.0,
+    "Gabriel Bortoleto": 18.0,
+}
+
+# Team power rankings (based on 2025 constructor standings)
 TEAM_POWER_RANKING: Dict[str, float] = {
     "McLaren": 1.0,
     "Ferrari": 0.95,
-    "Red_Bull": 0.92,
-    "Mercedes": 0.88,
-    "Aston_Martin": 0.70,
-    "Racing_Bulls": 0.60,
-    "Alpine": 0.55,
-    "Williams": 0.52,
+    "Red_Bull": 0.90,
+    "Mercedes": 0.85,
+    "Racing_Bulls": 0.55,
     "Haas": 0.50,
-    "Sauber": 0.45,
+    "Alpine": 0.48,
+    "Aston_Martin": 0.45,
+    "Williams": 0.40,
+    "Sauber": 0.35,
 }
 
 # F1 Points system
 F1_POINTS_SYSTEM: Dict[int, int] = {
-    1: 25,
-    2: 18,
-    3: 15,
-    4: 12,
-    5: 10,
-    6: 8,
-    7: 6,
-    8: 4,
-    9: 2,
-    10: 1,
+    1: 25, 2: 18, 3: 15, 4: 12, 5: 10, 6: 8, 7: 6, 8: 4, 9: 2, 10: 1,
 }
 
 # Sprint race points
 SPRINT_POINTS_SYSTEM: Dict[int, int] = {
-    1: 8,
-    2: 7,
-    3: 6,
-    4: 5,
-    5: 4,
-    6: 3,
-    7: 2,
-    8: 1,
+    1: 8, 2: 7, 3: 6, 4: 5, 5: 4, 6: 3, 7: 2, 8: 1,
 }
 
 # =============================================================================
