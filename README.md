@@ -2,8 +2,6 @@
 
 A Formula 1 Race Predictor web application that uses machine learning to predict qualifying and race outcomes. Simply enter a track name and get AI-powered predictions for driver positions, constructor standings, and more.
 
-![F1 Predictor Demo](Demo/Predictions.png)
-
 ## ✨ Features
 
 - **AI-Powered Predictions**: Machine learning models trained on historical F1 data
