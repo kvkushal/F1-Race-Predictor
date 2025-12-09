@@ -1,0 +1,36 @@
+# F1RacePredictor - Docker Compose
+# Local development and testing setup
+
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: f1predictor-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - APP_ENV=development
+      - LOG_LEVEL=INFO
+      - OPENWEATHER_API_KEY=${OPENWEATHER_API_KEY:-}
+    volumes:
+      # Mount model files for development
+      - ./backend/driver_position_model.pkl:/app/driver_position_model.pkl:ro
+      - ./backend/constructor_model.pkl:/app/constructor_model.pkl:ro
+      - ./backend/driver_model_features.json:/app/driver_model_features.json:ro
+      - ./backend/constructor_model_features.json:/app/constructor_model_features.json:ro
+      # Cache directory
+      - f1_cache:/app/f1_cache
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+volumes:
+  f1_cache:
+    driver: local

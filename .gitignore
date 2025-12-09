@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pkl
+.env
+venv/
+
+# Node / React
+node_modules/
+dist/
+.vite/
+
+# System
+.DS_Store
+Thumbs.db
+
+# FastF1 Cache (large files)
+f1_cache/
+backend/f1_cache/
+*.ff1pkl
+*.sqlite
+
+# IDE
+.idea/
+.vscode/
+*.swp

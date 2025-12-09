@@ -1,0 +1,35 @@
+# F1RacePredictor Backend Requirements
+# Pinned versions for reproducibility
+
+# Web Framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.3
+pydantic-settings==2.6.1
+
+# HTTP Client
+requests==2.32.3
+
+# Environment Management
+python-dotenv==1.0.1
+
+# Data Processing
+pandas==2.2.3
+numpy==2.2.0
+
+# Machine Learning
+scikit-learn==1.6.0
+lightgbm==4.5.0
+joblib==1.4.2
+
+# F1 Data (optional - for data collection)
+fastf1==3.4.4
+
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.25.0
+httpx==0.28.1
+
+# Optional visualization (for training analysis)
+# matplotlib==3.9.2
+# seaborn==0.13.2
