@@ -275,17 +275,12 @@ Contributions welcome! Areas for improvement:
 
 ---
 
-## 📄 License
+## 📊 Model Performance
 
-MIT License - see [LICENSE](LICENSE)
-
----
-
-## 👤 Author
-
-**Kushal KV**
-
-Built for F1 fans and data enthusiasts
+| Model | MAE | R² | Cross-Val MAE |
+|-------|-----|-----|---------------|
+| Driver Position | 2.5 | 0.75 | 2.8 |
+| Constructor | 3.2 | 0.70 | 3.5 |
 
 ---
 
@@ -297,11 +292,16 @@ Built for F1 fans and data enthusiasts
 
 ---
 
-## 📊 Model Performance
+## 📄 License
 
-| Model | MAE | R² | Cross-Val MAE |
-|-------|-----|-----|---------------|
-| Driver Position | 2.5 | 0.75 | 2.8 |
-| Constructor | 3.2 | 0.70 | 3.5 |
+MIT License - see [LICENSE](LICENSE)
+
+---
+
+## 👤 Author
+
+**Kushal KV**
+
+Built for F1 fans and data enthusiasts
 
 ---
