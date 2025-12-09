@@ -13,7 +13,7 @@ AI-powered Formula 1 race predictions using machine learning, real-time weather 
 
 ## 🌐 Live Demo
 
-**[→ Try it now: f1raceprediction.netlify.app](https://f1raceprediction.netlify.app/)**
+**[Click here for Demo](https://f1raceprediction.netlify.app/)**
 
 ---
 
@@ -264,6 +264,15 @@ frontend/
 
 ---
 
+## 📊 Model Performance
+
+| Model | MAE | R² | Cross-Val MAE |
+|-------|-----|-----|---------------|
+| Driver Position | 2.5 | 0.75 | 2.8 |
+| Constructor | 3.2 | 0.70 | 3.5 |
+
+---
+
 ## 🤝 Contributing
 
 Contributions welcome! Areas for improvement:
@@ -272,15 +281,6 @@ Contributions welcome! Areas for improvement:
 - [ ] Driver head-to-head analysis
 - [ ] Tire degradation modeling
 - [ ] Live race position updates
-
----
-
-## 📊 Model Performance
-
-| Model | MAE | R² | Cross-Val MAE |
-|-------|-----|-----|---------------|
-| Driver Position | 2.5 | 0.75 | 2.8 |
-| Constructor | 3.2 | 0.70 | 3.5 |
 
 ---
 
